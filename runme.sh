@@ -5,8 +5,9 @@ git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
 sudo cp i3 -r /etc/i3/
 cp i3 -r ~/.config/i3
-cp compton -r ~/.config/compton
+cp compton.conf ~/.config/compton.conf
 sudo mkdir /wallpapers
-sudo cp -r wallpapers /wallpapers
+sudo chmod 777 /wallpapers
+sudo cp -r wallpapers /
 sudo apt install -y pingus tuxpaint supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot
 echo Done!
