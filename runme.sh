@@ -8,5 +8,5 @@ cp i3 -r ~/.config/i3
 cp compton -r ~/.config/compton
 sudo mkdir /wallpapers
 sudo cp -r wallpapers /wallpapers
-sudo apt install -y pingus tuxpaint supertuxkart steam vlc brasero libreoffice krita gimp gdebi
+sudo apt install -y pingus tuxpaint supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot
 echo Done!
