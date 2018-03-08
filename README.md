@@ -1,2 +1,2 @@
-# i3-installer
-Automatic install of i3 desktop for Ubuntu.
+# Ubuntu Catnip
+Catnip for Ubuntu. Boost imagination, playfullness, and curiosity.
