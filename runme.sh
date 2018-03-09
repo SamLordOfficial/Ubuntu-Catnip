@@ -3,8 +3,8 @@ sudo apt remove -y pcmanfm gnome-mpv audacious xfburn abiword gnumeric
 sudo apt install --no-install-recommends -y i3 compton git xfce4-panel nitrogen thunar
 git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
-sudo cp i3 -r /etc/i3/
-cp i3 -r ~/.config/i3
+sudo cp i3 -r /etc/
+cp i3 -r ~/.config/
 cp compton.conf ~/.config/compton.conf
 sudo mkdir /wallpapers
 sudo chmod 777 /wallpapers
