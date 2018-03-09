@@ -9,5 +9,5 @@ cp compton.conf ~/.config/compton.conf
 sudo mkdir /wallpapers
 sudo chmod 777 /wallpapers
 sudo cp -r wallpapers /
-sudo apt install -y pingus tuxpaint supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox wine
+sudo apt install -y pingus tuxpaint supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox wine-stable
 echo Done!
