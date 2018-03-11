@@ -10,5 +10,5 @@ sudo mkdir /wallpapers
 sudo chmod 777 /wallpapers
 sudo cp -r wallpapers /
 sudo apt install -y pingus tuxpaint supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox wine-stable ttf-mscorefonts-installer
-sudo wget https://github.com/sparksammy/YABAH/raw/master/hosts -O - >> /etc/hosts
+wget https://github.com/sparksammy/YABAH/raw/master/hosts -O ~/YABAH && cat ~/YABAH | sudo tee -a /etc/hosts && rm ~/YABAH
 echo Done!
