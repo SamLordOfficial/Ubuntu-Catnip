@@ -7,6 +7,7 @@ git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
 sudo cp i3 -r /etc/
 cp i3 -r ~/.config/
+cp lxpanel -r ~/.config/
 cp compton.conf ~/.config/compton.conf
 sudo mkdir /wallpapers
 sudo chmod 777 /wallpapers
