@@ -1,6 +1,8 @@
 sudo apt update
 sudo apt remove -y pcmanfm gnome-mpv audacious xfburn abiword gnumeric nautilus gdm
-sudo apt install --no-install-recommends -y i3 compton git xfce4-panel nitrogen thunar xfce4-session rhythmbox lightdm
+sudo apt install --no-install-recommends -y i3 compton git xfce4-panel nitrogen thunar xfce4-session rhythmbox
+sudo apt-get install lightdm
+sudo dpkg-reconfigure lightdm
 git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
 sudo cp i3 -r /etc/
