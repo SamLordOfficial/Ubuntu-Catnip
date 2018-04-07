@@ -11,6 +11,7 @@ cp nitrogen -r ~/.config/
 cp lxpanel -r ~/.config/
 cp compton.conf ~/.config/compton.conf
 sudo mkdir /wallpapers
+cp xfce-perchannel-xml/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xml/xfce4-panel.xml
 sudo chmod 777 /wallpapers
 sudo cp -r wallpapers /
 sudo apt install --no-install-recommends -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
