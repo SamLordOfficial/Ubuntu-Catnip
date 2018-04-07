@@ -20,4 +20,4 @@ sudo apt-get update && sudo apt-get install -y obs-studio
 hostnameline="127.0.0.1 $(cat /etc/hostname)"
 echo $hostnameline > /etc/hosts
 wget https://github.com/sparksammy/YABAH/raw/master/hosts -O ~/YABAH && cat ~/YABAH | sudo tee -a /etc/hosts && rm ~/YABAH
-echo Done! Please login to "i3".
+echo Done! Please login to i3.
