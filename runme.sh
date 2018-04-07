@@ -14,7 +14,7 @@ sudo mkdir /wallpapers
 sudo chmod 777 /wallpapers
 sudo cp -r wallpapers /
 sudo apt install --no-install-recommends -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
-sudo apt install -y lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy
+sudo apt install -y lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel
 sudo add-apt-repository ppa:obsproject/obs-studio -y
 sudo apt-get update && sudo apt-get install -y obs-studio
 hostnameline="127.0.0.1 $(cat /etc/hostname)"
