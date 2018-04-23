@@ -2,7 +2,7 @@ sudo apt update
 sudo dpkg --add-architecture i386
 wget -nc https://dl.winehq.org/wine-builds/Release.key
 sudo apt-key add Release.key
-sudo apt-add-repository https://dl.winehq.org/wine-builds/ubuntu/
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'
 sudo apt remove -y pcmanfm gnome-mpv audacious xfburn abiword gnumeric nautilus gdm remmina xed pidgin xfce4-terminal
 sudo apt install --no-install-recommends -y i3 compton git xfce4-panel nitrogen thunar xfce4-session rhythmbox
 sudo apt-get install lightdm
@@ -19,7 +19,7 @@ cp xfce-perchannel-xml/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xm
 sudo chmod 777 /wallpapers
 sudo cp -r wallpapers /
 sudo apt install --no-install-recommends -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
-sudo apt install -y wicd wicd-gtk gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel xfce4-whiskermenu-plugin
+sudo apt install -y wicd gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel xfce4-whiskermenu-plugin
 sudo add-apt-repository ppa:obsproject/obs-studio -y
 sudo apt-get update && sudo apt-get install -y obs-studio
 hostnameline="127.0.1.1 $(cat /etc/hostname)"
