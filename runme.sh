@@ -1,4 +1,7 @@
 sudo apt update
+sudo add-apt-repository -y ppa:snwh/pulp
+sudo apt-get install -y paper-icon-theme
+
 sudo dpkg --add-architecture i386
 wget -nc https://dl.winehq.org/wine-builds/Release.key
 sudo apt-key add Release.key
