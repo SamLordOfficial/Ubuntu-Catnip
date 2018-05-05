@@ -23,7 +23,7 @@ cp xfce-perchannel-xml/xfce4-panel.xml ~/.config/xfce4/xfconf/xfce-perchannel-xm
 sudo chmod 777 /wallpapers
 sudo cp -r wallpapers /
 sudo apt install --no-install-recommends -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
-sudo apt install -y xfce4-settings-manager python-setuptools python3-setuptools firefox wicd gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel xfce4-whiskermenu-plugin
+sudo apt install -y xfce4-settings-manager python-setuptools wine-stable python3-setuptools firefox wicd gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel xfce4-whiskermenu-plugin
 sudo add-apt-repository ppa:obsproject/obs-studio -y
 sudo apt-get update && sudo apt-get install -y obs-studio
 hostnameline="127.0.1.1 $(cat /etc/hostname)"
