@@ -20,6 +20,8 @@ cp gtk-3.0 -r ~/.config/gtk-3.0
 cp menus -r ~/.config/menus
 cp compton -r ~/.config/compton
 cp xfce-perchannel-xml -r ~/.config/xfce-perchannel-xml
+sudo cp ~/sparksammy-logout /bin/sparksammy-logout
+sudo chmod 777  /bin/sparksammy-logout
 sudo mkdir /wallpapers
 sudo cp -r wallpapers /wallpapers
 sudo apt install --no-install-recommends -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
