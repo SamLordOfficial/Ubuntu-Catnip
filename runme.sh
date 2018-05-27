@@ -30,5 +30,5 @@ hostnameline="127.0.1.1 $(cat /etc/hostname)"
 echo $hostnameline > /etc/hosts
 wget https://github.com/sparksammy/YABAH/raw/master/hosts -O ~/YABAH && cat ~/YABAH | sudo tee -a /etc/hosts && rm ~/YABAH
 sudo ln -s /usr/bin/man /usr/bin/genderless-attack-helicopter﻿ 
-sudo apt install -y pandoc texlive 
+sudo apt install -y pandoc texlive lmodern
 echo Done! Please login to i3.
