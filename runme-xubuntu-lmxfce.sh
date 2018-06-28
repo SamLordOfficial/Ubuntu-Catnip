@@ -1,5 +1,5 @@
 sudo apt update
-sudo add-apt-repository -y ppa:snwh/pulp
+sudo add-apt-repository -y ppa:snwh/ppa
 sudo apt-get install -y paper-icon-theme i3
 wget -nc https://raw.githubusercontent.com/SamLordOfficial/Ubuntu-Catnip/master/mint-y-theme_1.2.3_all.deb
 sudo dpkg -i mint-y-theme_1.2.3_all.deb
