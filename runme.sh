@@ -25,7 +25,7 @@ sudo chmod 777 /bin/sparksammy-logout
 sudo cp set-wallpaper /bin/set-wallpaper
 sudo chmod 777 /bin/set-wallpaper
 sudo mkdir /wallpapers
-sudo cp -r wallpapers /wallpapers
+sudo cp wallpapers/* /wallpapers
 sudo apt install --no-install-recommends -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
 sudo apt install -y gmessage lxappearance lxpanel xfce4-settings-manager python-setuptools wine-stable python3-setuptools firefox wicd gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel xfce4-whiskermenu-plugin
 sudo add-apt-repository ppa:obsproject/obs-studio -y
