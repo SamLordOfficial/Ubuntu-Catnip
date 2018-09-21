@@ -36,4 +36,5 @@ wget https://github.com/sparksammy/YABAH/raw/master/hosts -O ~/YABAH && cat ~/YA
 sudo ln -s /usr/bin/man /usr/bin/genderless-attack-helicopter﻿ 
 sudo apt install -y pandoc texlive lmodern
 sudo apt install -y lxterminal lxappearance gxmessage
+sudo apt install -y gimp-texturize gimp-plugin-registry gimp-dcraw gimp-resynthesizer gimp-data-extras
 echo Done! Please login to i3.
