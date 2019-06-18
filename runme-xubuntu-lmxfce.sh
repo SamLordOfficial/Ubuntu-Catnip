@@ -1,4 +1,5 @@
 sudo apt update
+sudo apt install -y git
 sudo add-apt-repository -y ppa:snwh/ppa
 sudo apt-get install -y paper-icon-theme i3
 wget -nc https://raw.githubusercontent.com/SamLordOfficial/Ubuntu-Catnip/master/mint-y-theme_1.2.3_all.deb
@@ -8,7 +9,6 @@ wget -nc https://dl.winehq.org/wine-builds/Release.key
 sudo apt-key add Release.key
 sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'
 sudo apt remove -y pcmanfm gnome-mpv audacious xfburn abiword gnumeric nautilus gdm remmina xed pidgin xfce4-terminal
-sudo apt install --no-install-recommends -y git
 git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
 cp gtk-2.0 -r ~/.config/gtk-2.0
