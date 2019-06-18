@@ -22,7 +22,7 @@ sudo chmod 777 /bin/set-wallpaper
 sudo mkdir /wallpapers
 sudo cp wallpapers/* /wallpapers
 sudo apt install -y pingus tuxpaint supertux minetest tuxpaint-stamps supertuxkart steam vlc brasero libreoffice krita gimp gdebi openshot virtualbox shotwell wine-stable ttf-mscorefonts-installer xfce4 net-tools
-sudo apt install -y gmessage lxappearance xfce4-settings-manager python-setuptools wine-stable python3-setuptools gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel
+sudo apt install -y gmessage lxappearance python-setuptools wine-stable python3-setuptools gnash python python3 python-pip python3-pip network-manager-gnome lxterminal lxappearance miniupnpc thunderbird redshift redshift-gtk empathy lxpanel
 sudo add-apt-repository ppa:obsproject/obs-studio -y
 sudo apt-get update && sudo apt-get install -y obs-studio
 hostnameline="127.0.1.1 $(cat /etc/hostname)"
