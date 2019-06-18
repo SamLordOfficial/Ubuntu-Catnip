@@ -1,3 +1,4 @@
+sudo add-apt-repository ppa:kubuntu-ppa/backports 
 sudo apt update
 sudo apt install -y git
 sudo add-apt-repository -y ppa:snwh/ppa
