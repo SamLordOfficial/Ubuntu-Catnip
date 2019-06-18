@@ -11,6 +11,7 @@ sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial ma
 sudo apt remove -y pcmanfm gnome-mpv audacious xfburn abiword gnumeric nautilus gdm remmina xed pidgin xfce4-terminal
 git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
+cp i3 -r ~/.config/i3
 cp gtk-2.0 -r ~/.config/gtk-2.0
 cp gtk-3.0 -r ~/.config/gtk-3.0
 cp menus -r ~/.config/menus
