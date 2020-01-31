@@ -9,7 +9,6 @@ sudo dpkg -i mint-y-theme_1.2.3_all.deb
 sudo dpkg --add-architecture i386
 wget -nc https://dl.winehq.org/wine-builds/Release.key
 sudo apt-key add Release.key
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ $(echo $(lsb_release -c) | sed -e 's/Codename: //g') main'
 sudo apt remove -y pcmanfm gnome-mpv audacious xfburn abiword gnumeric nautilus gdm remmina xed pidgin xfce4-terminal
 git clone https://github.com/sparksammy/i3configs.git
 cd i3configs
